@@ -1,0 +1,46 @@
+.div1 {
+    background-color: blueviolet;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.div1 div{
+    margin: 20px;
+    padding: 20px;
+}
+.first{
+    width: 40%;
+    background-color: darkcyan;
+}
+.second{
+    width: 40%;
+    background-color: blanchedalmond;
+}
+.third{
+    width: 40%;
+    background-color: brown;
+
+}
+.fourth{
+    width: 40%;
+    background-color: aquamarine;
+}
+.five{
+    width: 40%;
+    background-color: aqua;
+}
+.six{
+    width: 40%;
+    background-color: chartreuse;
+}
+.div1:hover{
+    background-color: darkseagreen;
+}
+.div1 div:hover{
+    background-color: blue;
+}
+.h::selection{
+    background-color: antiquewhite;
+    color: blueviolet;
+}
